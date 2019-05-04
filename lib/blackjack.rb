@@ -53,5 +53,10 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  hit?(card_total)
+  display_card_total(number)
+  
 end
     
