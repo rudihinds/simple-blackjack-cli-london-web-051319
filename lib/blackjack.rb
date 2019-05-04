@@ -30,7 +30,7 @@ def initial_round
   display_card_total(total)
 end
 
-def hit?(card_total)
+def hit?(number)
   prompt_user
   case get_user_input
   when 'h'
