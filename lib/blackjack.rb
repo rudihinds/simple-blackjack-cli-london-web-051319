@@ -50,7 +50,7 @@ end
 
 def runner
   welcome
-  initial_round
+  total = initial_round
   hit?(number)
   get_user_input
 
