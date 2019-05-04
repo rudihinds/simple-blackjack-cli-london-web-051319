@@ -55,8 +55,8 @@ end
 def runner
   welcome
   initial_round
-  hit?(number)
   prompt_user
+  hit?(number)
   get_user_input
 
 end
